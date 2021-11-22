@@ -1,0 +1,620 @@
+@font-face {
+  font-family: "uer";
+  src: url('iconfont.eot?t=1599324188319');
+  /* IE9 */
+  src: url('iconfont.eot?t=1599324188319#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('iconfont.woff?t=1599324188319') format('woff'),
+    url('iconfont.ttf?t=1599324188319') format('truetype'),
+    /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url('iconfont.svg?t=1599324188319#uer') format('svg');
+  /* iOS 4.1- */
+}
+
+.uer {
+  font-family: "uer" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.uer-all:before {
+  content: "\e6ef";
+}
+
+.uer-reeor-fill:before {
+  content: "\e789";
+}
+
+.uer-success-fill:before {
+  content: "\e78d";
+}
+
+.uer-copy:before {
+  content: "\e6f3";
+}
+
+.uer-browse:before {
+  content: "\e750";
+}
+
+.uer-close:before {
+  content: "\e753";
+}
+
+.uer-Notvisible:before {
+  content: "\e75a";
+}
+
+.uer-success:before {
+  content: "\e76a";
+}
+
+.uer-set:before {
+  content: "\e76c";
+}
+
+.uer-exchangerate:before {
+  content: "\e774";
+}
+
+.uer-account:before {
+  content: "\e7b2";
+}
+
+.uer-dialog-close:before {
+  content: "\e862";
+}
+
+.uer-list:before {
+  content: "\e878";
+}
+
+.uer-loading-sync:before {
+  content: "\e879";
+}
+
+.uer-shrink:before {
+  content: "\e893";
+}
+
+.uer-menu:before {
+  content: "\e86c";
+}
+
+.uer-minimize:before {
+  content: "\e86d";
+}
+
+.uer-x:before {
+  content: "\e87f";
+}
+
+.uer-id:before {
+  content: "\e650";
+}
+
+.uer-kong:before {
+  content: "\e6a3";
+}
+
+.uer-ashbin:before {
+  content: "\e74c";
+}
+
+.uer-code1:before {
+  content: "\e74d";
+}
+
+.uer-ellipsis1:before {
+  content: "\e74f";
+}
+
+.uer-password:before {
+  content: "\e75b";
+}
+
+.uer-unlock1:before {
+  content: "\e773";
+}
+
+.uer-close-circle:before {
+  content: "\e77d";
+}
+
+.uer-info-circle:before {
+  content: "\e77f";
+}
+
+.uer-unlock:before {
+  content: "\e7c9";
+}
+
+.uer-lock:before {
+  content: "\e7ca";
+}
+
+.uer-ellipsis:before {
+  content: "\e7fc";
+}
+
+.uer-leida:before {
+  content: "\e71d";
+}
+
+.uer-tianqi:before {
+  content: "\e623";
+}
+
+.uer-sousuo:before {
+  content: "\e6fc";
+}
+
+.uer-component-TextEditor:before {
+  content: "\e700";
+}
+
+.uer-component-TextWidget:before {
+  content: "\e701";
+}
+
+.uer-component-CheckBox:before {
+  content: "\e702";
+}
+
+.uer-component-RadioGroup:before {
+  content: "\e703";
+}
+
+.uer-component-Switch:before {
+  content: "\e704";
+}
+
+.uer-component-ButtonWidget:before {
+  content: "\e706";
+}
+
+.uer-component-Drop-downListBox:before {
+  content: "\e707";
+}
+
+.uer-component-newTree:before {
+  content: "\e708";
+}
+
+.uer-component-Menu:before {
+  content: "\e709";
+}
+
+.uer-component-RangeInputBox:before {
+  content: "\e70b";
+}
+
+.uer-component-enewDate:before {
+  content: "\e70c";
+}
+
+.uer-component-mytextarea:before {
+  content: "\e70d";
+}
+
+.uer-component-mytextarearead:before {
+  content: "\e70e";
+}
+
+.uer-component-timeInterval:before {
+  content: "\e70f";
+}
+
+.uer-component-clock:before {
+  content: "\e710";
+}
+
+.uer-component-TabContainer:before {
+  content: "\e711";
+}
+
+.uer-component-ContainerWidget:before {
+  content: "\e712";
+}
+
+.uer-component-QueryContainer:before {
+  content: "\e713";
+}
+
+.uer-component-FilmContainer:before {
+  content: "\e714";
+}
+
+.uer-component-swiper:before {
+  content: "\e715";
+}
+
+.uer-component-picswiper:before {
+  content: "\e716";
+}
+
+.uer-component-Hyperlink:before {
+  content: "\e718";
+}
+
+.uer-component-ProgressBar:before {
+  content: "\e71c";
+}
+
+.uer-component-Image:before {
+  content: "\e71b";
+}
+
+.uer-component-WaterBubble2:before {
+  content: "\e71f";
+}
+
+.uer-component-WaterBubble:before {
+  content: "\e720";
+}
+
+.uer-component-InternalFrame:before {
+  content: "\e723";
+}
+
+.uer-component-QueryWidget:before {
+  content: "\e724";
+}
+
+.uer-component-calendar:before {
+  content: "\e725";
+}
+
+.uer-component-numShow:before {
+  content: "\e726";
+}
+
+.uer-component-tableGrid:before {
+  content: "\e728";
+}
+
+.uer-component-RegularTable:before {
+  content: "\e729";
+}
+
+.uer-component-StraightLine:before {
+  content: "\e72c";
+}
+
+.uer-component-Rectangle:before {
+  content: "\e72e";
+}
+
+.uer-component-bezier:before {
+  content: "\e730";
+}
+
+.uer-component-border:before {
+  content: "\e731";
+}
+
+.uer-component-BarChart:before {
+  content: "\e732";
+}
+
+.uer-component-ColumnChart:before {
+  content: "\e733";
+}
+
+.uer-component-ColumnStackedChart:before {
+  content: "\e734";
+}
+
+.uer-component-BarStackedChart:before {
+  content: "\e735";
+}
+
+.uer-component-WaterfallChart:before {
+  content: "\e739";
+}
+
+.uer-component-cartesianHeatMap:before {
+  content: "\e73a";
+}
+
+.uer-component-multidimensionBar:before {
+  content: "\e73b";
+}
+
+.uer-component-RoseDiagram:before {
+  content: "\e73d";
+}
+
+.uer-component-NestedPieChart:before {
+  content: "\e73f";
+}
+
+.uer-component-GaugeChart:before {
+  content: "\e740";
+}
+
+.uer-component-LineGraph:before {
+  content: "\e744";
+}
+
+.uer-component-LineStackedChart:before {
+  content: "\e745";
+}
+
+.uer-component-AreaStackedChart:before {
+  content: "\e746";
+}
+
+.uer-component-scatterChart:before {
+  content: "\e747";
+}
+
+.uer-component-Large-ScaleScatterChart:before {
+  content: "\e748";
+}
+
+.uer-component-BasicBubbleChart:before {
+  content: "\e749";
+}
+
+.uer-component-ForceOrientedMap:before {
+  content: "\e74a";
+}
+
+.uer-component-ChordDiagram:before {
+  content: "\e74b";
+}
+
+.uer-component-CombinationChart:before {
+  content: "\e74e";
+}
+
+.uer-component-RadarDiagram:before {
+  content: "\e751";
+}
+
+.uer-component-CharacterCloud:before {
+  content: "\e752";
+}
+
+.uer-component-FillingBubbleChart:before {
+  content: "\e755";
+}
+
+.uer-component-SunburstChart:before {
+  content: "\e757";
+}
+
+.uer-component-dynamicWordCloud:before {
+  content: "\e759";
+}
+
+.uer-component-heatMap:before {
+  content: "\e75c";
+}
+
+.uer-component-MigrationMap:before {
+  content: "\e75d";
+}
+
+.uer-component-DistributionMap:before {
+  content: "\e75e";
+}
+
+.uer-component-pointMap:before {
+  content: "\e760";
+}
+
+.uer-component-thmHistg3d:before {
+  content: "\e761";
+}
+
+.uer-component-scatterplot3d:before {
+  content: "\e762";
+}
+
+.uer-component-titlebox3d:before {
+  content: "\e766";
+}
+
+.uer-component-videoPlayer:before {
+  content: "\e767";
+}
+
+.uer-component-crossTable:before {
+  content: "\e768";
+}
+
+.uer-component-svgMap:before {
+  content: "\e769";
+}
+
+.uer-component-timeAxis:before {
+  content: "\e76d";
+}
+
+.uer-component-gaussMap3d:before {
+  content: "\e76e";
+}
+
+.uer-component-ringPie:before {
+  content: "\e76f";
+}
+
+.uer-component-pictoGraphic:before {
+  content: "\e771";
+}
+
+.uer-component-tipsContainer:before {
+  content: "\e772";
+}
+
+.uer-component-vectorIcon:before {
+  content: "\e776";
+}
+
+.uer-component-decorate:before {
+  content: "\e777";
+}
+
+.uer-component-Level_Tree:before {
+  content: "\e778";
+}
+
+.uer-component-PieChart:before {
+  content: "\e779";
+}
+
+.uer-component-FunnelChart:before {
+  content: "\e77a";
+}
+
+.uer-component-AreaGraph:before {
+  content: "\e77b";
+}
+
+.uer-component-map:before {
+  content: "\e77c";
+}
+
+.uer-zujian-jingdutiaozu:before {
+  content: "\e77e";
+}
+
+.uer-component-datasource:before {
+  content: "\e780";
+}
+
+.uer-component-panorama:before {
+  content: "\e624";
+}
+
+.uer-xinwen:before {
+  content: "\e646";
+}
+
+.uer-shuzifanpaiqi:before {
+  content: "\e602";
+}
+
+.uer-component-dynamicBubbles:before {
+  content: "\e631";
+}
+
+.uer-component-threedEarth:before {
+  content: "\e632";
+}
+
+.uer-component-particlesNum:before {
+  content: "\e633";
+}
+
+.uer-component-indicatorCard:before {
+  content: "\e634";
+}
+
+.uer-component-timeRiver:before {
+  content: "\e64f";
+}
+
+.uer-component-bothStrip:before {
+  content: "\e651";
+}
+
+.uer-meiguitu:before {
+  content: "\e652";
+}
+
+.uer-component-remoteContainer:before {
+  content: "\e655";
+}
+
+.uer-component-gauge3d:before {
+  content: "\e656";
+}
+
+.uer-component-funnel3d:before {
+  content: "\e657";
+}
+
+.uer-component-ringCd:before {
+  content: "\e65c";
+}
+
+.uer-lujing:before {
+  content: "\e65d";
+}
+
+.uer-component-barMountain:before {
+  content: "\e65e";
+}
+
+.uer-component-bottomChassis:before {
+  content: "\e66a";
+}
+
+.uer-dantixianshi:before {
+  content: "\e68f";
+}
+
+.uer-mofangtubiao:before {
+  content: "\e69a";
+}
+
+.uer-code:before {
+  content: "\e60b";
+}
+
+.uer-component-Ddipan:before {
+  content: "\e611";
+}
+
+.uer-zujian-shipin:before {
+  content: "\e613";
+}
+
+.uer-sanweizhuzhuangtu:before {
+  content: "\e615";
+}
+
+.uer-thread:before {
+  content: "\e626";
+}
+
+.uer-component-s3dArea:before {
+  content: "\e627";
+}
+
+.uer-daojishi:before {
+  content: "\e628";
+}
+
+.uer-component-s3dPeak:before {
+  content: "\e62a";
+}
+
+.uer-component-s3dFunnel:before {
+  content: "\e62b";
+}
+
+.uer-Dbingtu:before {
+  content: "\e62c";
+}
+
+.uer-print:before {
+  content: "\e62e";
+}
+
+.uer-WD1:before {
+  content: "\e659";
+}
+
+.uer-xiazaizujian:before {
+  content: "\e65f";
+}
+
+.uer-component-sanKey:before {
+  content: "\e64e";
+}

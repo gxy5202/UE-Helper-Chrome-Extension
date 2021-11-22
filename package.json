@@ -1,0 +1,45 @@
+{
+  "name": "parcel-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "parcel index.html --open",
+    "build:bg": "parcel build src/background/index.ts -d dist/background --experimental-scope-hoisting",
+    "build:popup": "parcel build src/popup/index.html -d dist/popup --public-url ./ --experimental-scope-hoisting",
+    "build:content": "parcel build src/content/index.ts -d dist/content --public-url ./ --experimental-scope-hoisting",
+    "build:inject": "parcel build src/inject/index.ts -d dist/inject --public-url ./ --experimental-scope-hoisting",
+    "build:icon": "parcel build assets/font/* -d dist/assets/font --public-url ./ --experimental-scope-hoisting",
+    "build:less": "parcel build src/inject/uehelper.less src/components/HeaderBox/HeaderBox.less -d dist --public-url ./ --experimental-scope-hoisting",
+    "build": "npm run build:bg && npm run build:content && npm run build:inject",
+    "copy:static": "copyfiles manifest.json assets/icons/* dist",
+    "clean": "rimraf dist",
+    "dist": "npm run clean && npm run build && npm run copy:static",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "prismjs": "^1.22.0",
+    "vue": "^2.6.11",
+    "vue-hot-reload-api": "^2.3.4",
+    "vue-router": "^3.3.4",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-typescript": "^7.10.4",
+    "@types/chrome": "0.0.122",
+    "@types/jquery": "^3.5.1",
+    "@vue/component-compiler-utils": "^3.2.0",
+    "copyfiles": "^2.3.0",
+    "cssnano": "^4.1.10",
+    "less": "^3.12.2",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.9.7",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
